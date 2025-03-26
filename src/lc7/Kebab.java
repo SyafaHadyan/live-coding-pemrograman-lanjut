@@ -7,7 +7,6 @@ public class Kebab {
     static final long[] NORMAL_PRICE = new long[] { 20000, 30000, 50000 };
     static final long[] DISCOUNTED_PRICE = new long[] { 18000, 27000, 45000 };
     static final int[] DISCOUNT_CONSTRAINT = new int[] { 10, 10, 10 };
-    static final String[] KEBAB_LIST = new String[] { "Ayam", "Sapi", "Premium" };
     static final Map<String, Integer> KEBAB_PRICE_INDEX = Map.ofEntries(
             Map.entry("Ayam", 0),
             Map.entry("Sapi", 1),
