@@ -14,7 +14,7 @@ public class RehanWangsaff {
             activity.append(scanner.nextLine().replaceAll("\\s+", ""));
         }
 
-        StringJoiner friendList = new StringJoiner(", ", "Teman yang ditemuhi hari ini: [", "]");
+        StringJoiner friendList = new StringJoiner(", ", "Teman yang ditemui hari ini: [", "]");
 
         int friendCount = Integer.parseInt(scanner.nextLine());
 
